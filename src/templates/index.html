@@ -1,0 +1,52 @@
+{% extends "layouts/layout.html" %}
+
+{% block title %}Baltimore Web Design Group{% endblock %}
+{% block content %}
+  
+<section class="hero slide-in" data-delay="0">
+  <div class="logo">
+    <img src="public/images/logo.png" alt="Baltimore Web Design Group">
+  </div>
+</section>
+
+<section class="content-block slide-in" data-delay="150">
+  <div class="container">
+    <div class="grid">
+      <div class="col-80 col--centered">
+        <h5 class="section-title">Next Event</h5>
+        <h2 class="event-title">Event Title</h2>
+        <h6 class="event-date">March 30, 6:30pm at <a href="http://www.15four.com" target="_blank">15Four</a></h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate sunt, asperiores soluta. Tempore nobis aspernatur facere officiis <a href="/">laudantium cum</a>, obcaecati corrupti, vitae nostrum velit fugit culpa nam hic commodi adipisci.</p>
+        <a class="button" href="" target="_blank">RSVP</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="map">
+    <div id="map-canvas"></div>
+    <div class="directions">
+      <h5>15Four</h5>
+      <p>3618 Falls Rd #200<br>Baltimore, MD 21211</p>
+      <a class="button" href="https://www.google.com/maps/dir/Current+Location/15Four+-+Video+Strategy+%26+Production+-+Baltimore+MD,+3618+Falls+Rd+%23200,+Baltimore,+MD+21211" target="_blank">Directions</a>
+    </div>
+  </div>
+</section>
+
+<section class="content-block">
+  <div class="container">
+    <div class="grid">
+      <div class="col-80 col--centered">
+        <h5 class="section-title">About Baltimore Web Design Group</h5>
+        <h3><span class="hashtag">#</span>BWDG</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore magnam dolor necessitatibus quis iusto commodi reprehenderit ea id itaque voluptatum, repellendus fugiat dolorum quam soluta adipisci possimus qui ad ab!</p>
+        <p>Stay up to date by following us <a href="http://twitter.com/BmoreSass" target="">@BmoreSass on Twitter</a> or on <a href="http://www.facebook.com/groups/349251851884389/" target="">Facebook</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="footer">
+  <p>Made in Baltimore<br>© Copyright 2015 · All rights reserved</p>
+</section>
+  
+{% endblock %}
