@@ -726,7 +726,9 @@ section.content-block .map .directions h5 {
 }
 @media screen and (max-width: 720px) {
   section.content-block .map .directions {
-    display: none;
+    position: static;
+    background: transparent;
+    box-shadow: none;
   }
 }
 
